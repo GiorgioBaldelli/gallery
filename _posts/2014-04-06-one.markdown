@@ -3,5 +3,5 @@ layout: default
 date:   2014-04-06 23:26:12
 photo: 1.jpg
 caption_header: Waste Picker Protest
-caption: Waste pickers, so-called clasificadores, march against restrictive legislature. A protester poses proudly with his cart. Uruguay, Montevideo - September 2014
+caption: Waste pickers march against restrictive legislature. A protester poses with his cart. Uruguay, Montevideo - September 2014
 ---
