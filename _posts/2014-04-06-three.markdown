@@ -4,3 +4,4 @@ date:   2015-11-06 23:26:12
 photo: 3.jpg
 caption_header: Resistance is Futile
 caption: Germany, Berlin
+---
