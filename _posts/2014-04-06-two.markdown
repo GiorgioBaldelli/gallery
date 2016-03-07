@@ -4,3 +4,4 @@ date:   2014-04-06 23:26:12
 photo: 2.jpg
 caption_header: Textile Workers Protesting header
 caption: The Uruguayan textile industy has been in constant decline. Members of Uruguay's textile union protest in front of Montevideo's Parliament. Montevideo, Uruguay - August 2014
+---
