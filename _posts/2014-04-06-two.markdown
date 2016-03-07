@@ -3,5 +3,5 @@ layout: default
 date:   2014-04-06 23:26:12
 photo: 2.jpg
 caption_header: Textile Workers Protesting
-caption: "Uruguay's textile industry is in a state of constant decline workers protest in front of the parliament of Montevideo. Uruguay, Montevideo - September 2014
+caption: "Uruguay's textile industry is in a state of constant decline workers protest in front of the parliament of Montevideo. Uruguay, Montevideo - September 2014"
 ---
