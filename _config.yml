@@ -6,5 +6,4 @@ author:
     name: Giorgio Baldelli
     twitter: #
 
-baseurl: '/gallery'
-url: "http://giorgiobaldelli.com" # the base hostname & protocol for your site
+url: "http://giorgiobaldelli.com/gallery" # the base hostname & protocol for your site
