@@ -1,7 +1,0 @@
-name: Photo gallery
-markdown: redcarpet
-pygments: true
-permalink: /:year/:month/:title/
-url: http://giorgiobaldelli.com/gallery/
-    name: Giorgio Baldelli
-    twitter: #
