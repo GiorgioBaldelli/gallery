@@ -2,7 +2,7 @@ name: Photo gallery
 markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:title/
-url: https://giorgiobaldelli.com/gallery
+url: http://giorgiobaldelli.com/gallery
 author:
     name: Giorgio Baldelli
     twitter: #
