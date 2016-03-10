@@ -25,7 +25,7 @@
 	width: 100%;
 }
 
-.grid-gallery figure img[src="(none_)+"] {
+.grid-gallery figure img[src*="none_"] {
 	display: none;
 }
 
