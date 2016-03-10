@@ -1,7 +1,7 @@
 ---
 layout: default
-date:   2014-04-06 23:26:12
+date:   2014-07-27 23:26:12
 photo: 7.jpg 
-caption_header: Sample
-caption: Sample
+caption_header: Student Protest: No a la Baja!
+caption: Sudents protest against the proposal to lower the age of imputability from 18 to 16 years. Montevideo, 27.07.14
 ---
