@@ -4,5 +4,5 @@ date:   2015-11-29 23:26:12
 photo: 14.jpg 
 tube: none
 caption_header: COP21, Faces of Berlin
-caption: <i>Germany uses way to much coal to foster its economic growth<i>. Berlin, 29.11.14
+caption: Germany uses way to much coal to foster its economic growth. Berlin, 29.11.14
 ---

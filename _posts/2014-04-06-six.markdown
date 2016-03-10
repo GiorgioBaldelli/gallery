@@ -3,5 +3,5 @@ layout: default
 date:   2015-11-29 23:26:12
 photo: 6.jpg 
 caption_header: COP 21, Portraits & Stories
-caption: <i>Thinking that we are disconnected from nature is foolish.</i> Berlin, 29.11.2015
+caption: Thinking that we are disconnected from nature is foolish. Berlin, 29.11.2015
 ---

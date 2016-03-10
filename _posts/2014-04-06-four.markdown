@@ -2,6 +2,7 @@
 layout: default
 date:   2015-11-29 23:26:12
 photo: 4.jpg
+tube: none
 caption_header: COP 21, Faces & Stories
-caption: <i>I'm from Paris but live in Berlin. It's great to find many like-minded people.</i> Berlin, 29.11.15
+caption: I'm from Paris but live in Berlin. It's great to find many like-minded people Berlin, 29.11.15
 ---
