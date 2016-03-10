@@ -4,5 +4,5 @@ date:   2014-04-06 23:26:12
 photo: 20.jpg
 caption_header: tube sample
 caption: sample tube
-tube: Z6aeXmd6RUk
+tube: https://www.youtube.com/embed/Z6aeXmd6RUk
 ---
