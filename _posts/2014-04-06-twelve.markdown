@@ -1,6 +1,6 @@
 ---
 layout: default
-date:   2015-07-30 23:26:12
+date: 2015-07-30 23:26:12
 photo: 12.jpg 
 tube: none
 caption_header: OXI, Greece's cry against austerity

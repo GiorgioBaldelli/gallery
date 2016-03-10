@@ -1,6 +1,6 @@
 ---
 layout: default
-date:   2015-10-08 23:26:12
+date: 2015-10-08 23:26:12
 photo: 13.jpg 
 tube: none
 caption_header: British Columbia's Forests

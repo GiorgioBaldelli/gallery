@@ -1,6 +1,6 @@
 ---
 layout: default
-date:   2014-12-04 23:26:12
+date: 2014-12-04 23:26:12
 photo: 5.jpg
 tube: none
 caption_header: Cabo Polonio, the Jewel of Uruguay

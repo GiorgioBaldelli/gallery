@@ -1,6 +1,6 @@
 ---
 layout: default
-date:   2014-10-17 23:26:12
+date: 2014-10-17 23:26:12
 photo: 17.jpg 
 tube: none
 caption_header: Garbage Workers of Montevideo
