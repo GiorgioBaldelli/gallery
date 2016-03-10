@@ -25,7 +25,7 @@
 	width: 100%;
 }
 
-.grid-gallery figure img[src="http://giorgiobaldelli.com/gallery/img/large/none"] {
+.grid-gallery figure img[src="(none_)+"] {
 	display: none;
 }
 
