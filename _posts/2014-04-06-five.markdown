@@ -2,6 +2,7 @@
 layout: default
 date:   2015-12-15 23:26:12
 photo: 5.jpg
+tube: none
 caption_header: Cabo Polonio, the Jewel of Uruguay
 caption: Cabo Polonio, a protected reserve along Uruguay's coast. Uruguay, Montevideo - December 2014
 ---

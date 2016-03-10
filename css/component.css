@@ -29,6 +29,9 @@
 	display: none;
 }
 
+.grid-gallery figure iframe[src*="none"] {
+	display: none;
+}
 .grid-gallery figcaption h3 {
 	margin: 0;
 	padding: 0 0 0.5em;
