@@ -185,10 +185,12 @@
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
+	color: #989898;
 }
 
 .slideshow nav span.nav-next {
 	right: 0;
+	color: #989898;
 }
 
 .slideshow nav span.nav-close {
