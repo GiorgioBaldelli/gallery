@@ -1,7 +1,7 @@
 ---
 layout: default
-date:   2014-04-06 23:26:12
+date:   2014-09-08 23:26:12
 photo: 1.jpg
 caption_header: Waste Picker Protest
-caption: Waste pickers march against restrictive legislature. A protester poses with his cart. Uruguay, Montevideo - September 2014
+caption: Waste pickers march against restrictive legislature. A protester poses with his cart. Montevideo, 08.09.14
 ---
