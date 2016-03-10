@@ -1,7 +1,8 @@
 ---
 layout: default
-date:   2015-11-06 23:26:12
+date:   2015-11-11 23:26:12
 photo: 3.jpg
+tube: none
 caption_header: Resistance is Futile
-caption: Germany, Berlin - November 2015
+caption: Berlin, 11.11.2015
 ---
