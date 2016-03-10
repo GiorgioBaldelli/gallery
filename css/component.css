@@ -27,7 +27,7 @@
 
 .grid-gallery figure img[src="http://giorgiobaldelli.com/gallery/img/large/none"] {
 	display: none;
-
+}
 
 .grid-gallery figcaption h3 {
 	margin: 0;
