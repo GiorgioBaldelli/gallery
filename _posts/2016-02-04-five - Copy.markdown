@@ -3,6 +3,6 @@ layout: default
 date: 2016-02-15 23:26:12
 photo: weiwei.jpg
 tube: none
-caption_header: #SAFEPASSAGE
+caption_header: "#SAFEPASSAGE"
 caption: Ai Weiwei installation to raise awareness about the plight of refugees. Berlin, 15.02.16
 ---
