@@ -201,10 +201,7 @@
 		} );
 
 		// slideshow controls
-		this.ctrlPrev.addEventListener( 'click', function() { 
-			self._navigate( 'prev' );
-    		callPlayer("whateverID", "stopVideo"); 
-    	});
+		this.ctrlPrev.callPlayer( "whateverID", function() { callPlayer("whateverID", "stopVideo"); } );
 		this.ctrlNext.addEventListener( 'click', function() { self._navigate( 'next' ); } );
 		this.ctrlClose.addEventListener( 'click', function() { self._closeSlideshow(); } );
 
