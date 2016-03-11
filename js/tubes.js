@@ -46,14 +46,14 @@ function callPlayer(frame_id, func, args) {
             }, 250);
             // Add a global "message" event listener, to catch status updates:
             messageEvent(1, function runOnceReady(e) {
-                    if (!iframe) {
-                        iframe = document.getElementById(frame_id);
+                if (!iframe) {
+                    iframe = document.getElementById(frame_id);
+                    if (!iframe) return;
+                    if (iframe.tagName.toUpperCase() != 'IFRAME') {
+                        iframe = iframe.getElementsByTagName('iframe')[0];
                         if (!iframe) return;
-                        if (iframe.tagName.toUpperCase() != 'IFRAME') {
-                            iframe = iframe.getElementsByTagName('iframe')[0];
-                            if (!iframe) return;
-                        }
                     }
+                }
                 if (e.source === iframe.contentWindow) {
                     // Assume that the player is ready if we receive a
                     // message from the iframe
@@ -87,8 +87,3 @@ function callPlayer(frame_id, func, args) {
             (add ? window.attachEvent : window.detachEvent)('onmessage', listener);
     }
 }
-
-// Example: call play
-// Note that the function automatically queues
-// the request when the DOM/frame is not ready yet
-callPlayer('whateverID', 'playVideo');

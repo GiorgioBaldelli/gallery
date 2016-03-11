@@ -30,16 +30,14 @@ layout: default
 		<li>
 			<figure>
 				<img src="{{ site.url }}/img/large/{{ post.photo }}" alt="img"/>
-				<iframe id="youtube_player" class="yt_player_iframe" width="640" height="360" src="{{ post.tube }}?enablejsapi=1&version=3&playerapiid=ytplayer" allowfullscreen="true" allowscriptaccess="always" frameborder="0"></iframe>
+				<iframe id="youtube_player" class="yt_player_iframe" width="640" height="360" src="{{ post.tube }}?enablejsapi=1" allowfullscreen="true" allowscriptaccess="always" frameborder="0"></iframe>
 				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.caption }}</p></figcaption>
 			</figure>
 		</li>
 		{% endfor %}
 	</ul>
 	<nav>
-		<a href="javascript:void callPlayer(&quot;whateverID&quot;,&quot;playVideo&quot;)"><span class="icon nav-prev"></span>
-		</a> &bull;
-		
+		<span class="icon nav-prev" js="javascript:void callPlayer(&quot;whateverID&quot;,&quot;stopVideo&quot;)"></span>
 		<span class="icon nav-next"></span>
 		<span class="icon nav-close"></span>
 	</nav>
@@ -48,3 +46,8 @@ layout: default
 
 	</div><!-- // grid-gallery -->
 </div>
+
+callPlayer("whateverID", function() {
+    // This function runs once the player is ready ("onYouTubePlayerReady")
+    callPlayer("whateverID", "playVideo");
+});
