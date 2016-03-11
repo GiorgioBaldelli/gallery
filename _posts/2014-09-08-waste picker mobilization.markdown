@@ -1,8 +1,8 @@
 ---
 layout: default
-date: 2014-04-06 23:26:12
+date: 2014-09-08 23:26:12
 photo: 10.jpg 
 tube: none
-caption_header: Waste Picker Protest
+caption_header: Waste Workers of Montevideo
 caption: Waste pickers block the explanade in front of the parliament of Montevideo. Montevideo, 08.09.14
 ---

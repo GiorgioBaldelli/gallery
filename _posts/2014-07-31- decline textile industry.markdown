@@ -1,8 +1,8 @@
 ---
 layout: default
-date:   2014-07-31	 23:26:12
+date:  2014-07-31 23:26:12
 photo: 2.jpg
 tube: none	
-caption_header: Textile Workers Protesting
+caption_header: Decline of the Textile Industry
 caption: Uruguay's textile industry is in constant decline. Protest in front of the parliament of Montevideo. 31.07.2014
 ---

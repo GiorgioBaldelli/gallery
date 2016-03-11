@@ -3,6 +3,6 @@ layout: default
 date: 2014-10-20 23:26:12
 photo: 11.jpg 
 tube: none
-caption_header: Waste Workers of Montevideo
+caption_header: "Waste Workers of Montevideo: El Tito"
 caption: I pick trash for a living. Anything I touch turns into money. Montevideo, 20.10.15
 ---
