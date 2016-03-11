@@ -362,3 +362,22 @@
 	window.CBPGridGallery = CBPGridGallery;
 
 })( window );
+
+
+$(function() {
+    /* elt: Optionally, a HTMLIFrameElement. This frame's video will be played,
+     *       if possible. Other videos will be paused*/
+    function playVideoAndPauseOthers(frame) {
+        $('iframe[src*="http://www.youtube.com/embed/"]').each(function(i) {
+            var func = this === frame ? 'playVideo' : 'pauseVideo';
+            this.contentWindow.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+        });
+    }
+    $('#tS2 a[href^="#vid"]').click(function() {
+        var frameId = /#vid(\d+)/.exec($(this).attr('href'));
+        if (frameId !== null) {
+            frameId = frameId[1]; // Get frameId
+            playVideoAndPauseOthers($('#pic' + frameId + ' iframe')[0]);
+        }
+    });
+});
