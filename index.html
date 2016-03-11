@@ -30,7 +30,9 @@ layout: default
 		<li>
 			<figure>
 				<img src="{{ site.url }}/img/large/{{ post.photo }}" alt="img"/>
-				<iframe id="youtube_player" class="yt_player_iframe" width="640" height="360" src="{{ post.tube }}?enablejsapi=1" allowfullscreen="true" allowscriptaccess="always" frameborder="0"></iframe>
+					<section id="whateverID">
+						<iframe id="youtube_player" class="yt_player_iframe" width="640" height="360" src="{{ post.tube }}?enablejsapi=1" allowfullscreen="true" allowscriptaccess="always" frameborder="0"></iframe>
+					</section>
 				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.caption }}</p></figcaption>
 			</figure>
 		</li>
