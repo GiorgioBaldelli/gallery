@@ -40,6 +40,30 @@ layout: default
 		<span class="icon nav-prev"></span>
 		<span class="icon nav-next"></span>
 		<span class="icon nav-close"></span>
+
+		<script>
+$('#icon nav-prev').on('click', function() {
+    //$('#popup-youtube-player').stopVideo();
+ $('#youtube_player')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');   
+});
+</script>
+
+<script>
+$('#icon nav-next').on('click', function() {
+    //$('#popup-youtube-player').stopVideo();
+ $('#youtube_player')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');   
+});
+</script>
+
+<script>
+$('#icon nav-close').on('click', function() {
+    //$('#popup-youtube-player').stopVideo();
+ $('#youtube_player')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');   
+});
+</script>
+
+
+
 	</nav>
 	<div class="info-keys icon">Navigate with arrow keys</div>
 	</section><!-- // slideshow -->
