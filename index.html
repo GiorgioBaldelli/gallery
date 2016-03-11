@@ -25,12 +25,6 @@ layout: default
 	</section><!-- // grid-wrap -->
 
 	<section class="slideshow">
-		<nav>
-		<span class="icon nav-prev" js="javascript:void callPlayer(&quot;whateverID&quot;,&quot;stopVideo&quot;)"></span>
-		<span class="icon nav-next"></span>
-		<span class="icon nav-close"></span>
-	</nav>
-	<div class="info-keys icon">Navigate with arrow keys</div>
 	<ul>
 		{% for post in site.posts %}
 		<li>
@@ -44,8 +38,12 @@ layout: default
 		</li>
 		{% endfor %}
 	</ul>
-	
+	<nav>
+		<span class="icon nav-prev"></span>
+		<span class="icon nav-next"></span>
+		<span class="icon nav-close"></span>
+	</nav>
+	<div class="info-keys icon">Navigate with arrow keys</div>
 	</section><!-- // slideshow -->
-
 	</div><!-- // grid-gallery -->
 </div>
