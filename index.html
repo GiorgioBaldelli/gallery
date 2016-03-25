@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+<script src="script.js"></script>
+
 <div class="container">
 	<header class="clearfix">
 		<h1>{{ site.name }}</h1>
@@ -30,14 +33,14 @@ layout: default
 		<li>
 			<figure>
 				<img src="{{ site.url }}/img/large/{{ post.photo }}" alt="img"/>
-						<iframe width="600" height="350" frameborder="0" title="YouTube video player" type="text/html" src="{{ post.tube }}?enablejsapi=1"></iframe>
+						<iframe id="whateverID" width="600" height="350" frameborder="0" title="YouTube video player" type="text/html" src="{{ post.tube }}?enablejsapi=1"></iframe>
 				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.caption }}</p></figcaption>
 			</figure>
 		</li>
 		{% endfor %}
 	</ul>
 	<nav>
-		<span class="icon nav-prev"></span>
+		<a href="javascript:void callPlayer(&quot;whateverID&quot;,&quot;stopVideo&quot;)"><span class="icon nav-prev"></span></a>
 		<span class="icon nav-next"></span>
 		<span class="icon nav-close"></span>
 	</nav>
